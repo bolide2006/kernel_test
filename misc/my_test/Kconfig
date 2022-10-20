@@ -1,0 +1,8 @@
+menu "Customize TV tuners"
+config MY_TEST
+	tristate "My test cases"
+	default y
+	help
+	  Self driver test for debug!
+endmenu
+
