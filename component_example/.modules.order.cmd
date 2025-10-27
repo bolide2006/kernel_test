@@ -1,0 +1,1 @@
+cmd_/project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/modules.order := {   echo /project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/test-component.ko; :; } | awk '!x[$$0]++' - > /project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/modules.order

@@ -1,0 +1,1 @@
+cmd_/project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/Module.symvers := sed 's/ko$$/o/' /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/modules.order | scripts/mod/modpost     -o /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,82 @@
+/*
+ * 组件化驱动示例的设备树片段
+ * 用于描述显示子系统及其组件
+ */
+
+/ {
+	display-subsystem {
+		compatible = "example,display-subsystem";
+		label = "example-display-subsystem";
+		ds: dsystem@0 {
+			reg = <0>;
+			ports {
+				#address-cells = <1>;
+				#size-cells = <0>;
+
+				port@0 {
+					reg = <0>;
+					dp_out0: endpoint@0 {
+						remote-endpoint = <&gpu_in>;
+					};
+				};
+				
+				port@1 {
+					reg = <1>;
+					dp_out1: endpoint@1 {
+						remote-endpoint = <&dc_in>;
+					};
+				};
+				
+				port@2 {
+					reg = <2>;
+					dp_out2: endpoint@2 {
+						remote-endpoint = <&connector_in>;
+					};
+				};
+			};
+		};
+	};
+	
+	gpu {
+		compatible = "example,gpu";
+		ports {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			port@0{
+				reg = <0>;
+				gpu_in: endpoint{
+					remote-endpoint = <&dp_out0>;
+				};
+			};
+		};
+	};
+
+	display-controller {
+		compatible = "example,display-controller";
+		ports {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			port@0{
+				reg = <0>;
+				dc_in: endpoint{
+					remote-endpoint = <&dp_out1>;
+				};
+			};
+		};
+	};
+
+	connector {
+		compatible = "example,connector";
+		ports {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			port@0{
+				reg = <0>;
+				connector_in: endpoint{
+					remote-endpoint = <&dp_out2>;
+				};
+			};
+		};
+	};
+};
+

@@ -1,0 +1,1 @@
+cmd_/project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/component_example/test_component.mod := { echo  /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/component_example/component_example.o;  echo; } > /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/component_example/test_component.mod

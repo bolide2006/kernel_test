@@ -1,0 +1,1 @@
+cmd_/project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/test-fence.mod := { echo  /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/dma_fence_example.o;  echo; } > /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/test-fence.mod

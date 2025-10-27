@@ -1,4 +1,4 @@
-menu "Customize TV tuners"
+menu "My test cases"
 config MY_TEST
 	tristate "My test cases"
 	default y
