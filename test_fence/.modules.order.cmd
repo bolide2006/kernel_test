@@ -1,1 +1,0 @@
-cmd_/project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/modules.order := {   echo /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/test-fence.ko; :; } | awk '!x[$$0]++' - > /project/workspace2/frazho01/CodeBase/DPU/qemu/qemu_daqian_dx2/qemu_dq_dx/test_fence/modules.order

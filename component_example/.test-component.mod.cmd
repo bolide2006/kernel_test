@@ -1,1 +1,0 @@
-cmd_/project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/test-component.mod := { echo  /project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/component_example.o;  echo; } > /project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/test-component.mod

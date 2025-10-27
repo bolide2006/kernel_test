@@ -1,1 +1,0 @@
-cmd_/project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/Module.symvers := sed 's/ko$$/o/' /project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/modules.order | scripts/mod/modpost     -o /project/workspace2/frazho01/Gerrit/github/my_test/kernel_test/component_example/Module.symvers -e -i Module.symvers   -T -
